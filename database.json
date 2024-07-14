@@ -1,0 +1,693 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "IPhone 13 Pro",
+      "brand_id": "b001",
+      "category_id": "c001",
+      "price": 999.99,
+      "currency": "USD",
+      "display": "6.1 inch",
+      "processor": "A15 Bionic",
+      "ram": "6GB",
+      "storage": "128GB",
+      "battery": "3095 mAh",
+      "camera": "12MP",
+      "os": "iOS 15",
+      "release_date": "2021-09-24",
+      "ratings": 4.8,
+      "reviews": 1200,
+      "image": "https://linhkientot.net/storage/media/0lxIyeTADheRbup39jJjxaGoC8EO5ijJFuiWzoZl.png",
+      "image_front": "https://example.com/images/iphone13pro_front.jpg",
+      "image_back": "https://example.com/images/iphone13pro_back.jpg",
+      "description": "The iPhone 13 Pro features a sleek design with powerful performance and advanced camera capabilities."
+    },
+    {
+      "id": "p002",
+      "name": "Samsung Galaxy S21",
+      "brand_id": "b002",
+      "category_id": "c001",
+      "price": 799.99,
+      "currency": "USD",
+      "display": "6.2 inch",
+      "processor": "Exynos 2100",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4000 mAh",
+      "camera": "64MP",
+      "os": "Android 11",
+      "release_date": "2021-01-29",
+      "ratings": 4.6,
+      "reviews": 950,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucTdV_9VzoMFPv8J7TE6etD2eVMzEjuGvXA&s",
+      "image_front": "https://example.com/images/galaxys21_front.jpg",
+      "image_back": "https://example.com/images/galaxys21_back.jpg",
+      "description": "The Samsung Galaxy S21 offers a premium experience with its high-resolution display and versatile camera setup."
+    },
+    {
+      "id": "p003",
+      "name": "Google Pixel 6",
+      "brand_id": "b003",
+      "category_id": "c001",
+      "price": 699.99,
+      "currency": "USD",
+      "display": "6.4 inch",
+      "processor": "Google Tensor",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4614 mAh",
+      "camera": "50MP",
+      "os": "Android 12",
+      "release_date": "2021-10-28",
+      "ratings": 4.7,
+      "reviews": 800,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/233009/google-pixel-6-600x600.jpg",
+      "image_front": "https://example.com/images/pixel6_front.jpg",
+      "image_back": "https://example.com/images/pixel6_back.jpg",
+      "description": "The Google Pixel 6 features an innovative design and the powerful Google Tensor chip."
+    },
+    {
+      "id": "p004",
+      "name": "OnePlus 9",
+      "brand_id": "b004",
+      "category_id": "c001",
+      "price": 729.99,
+      "currency": "USD",
+      "display": "6.55 inch",
+      "processor": "Snapdragon 888",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4500 mAh",
+      "camera": "48MP",
+      "os": "Android 11",
+      "release_date": "2021-03-23",
+      "ratings": 4.5,
+      "reviews": 700,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpjnExcRAzxR1fq5p7Scx7SznugSpKWK-oVg&s",
+      "image_front": "https://example.com/images/oneplus9_front.jpg",
+      "image_back": "https://example.com/images/oneplus9_back.jpg",
+      "description": "The OnePlus 9 offers a flagship experience with fast performance and a stunning display."
+    },
+    {
+      "id": "p005",
+      "name": "Sony Xperia 5 III",
+      "brand_id": "b005",
+      "category_id": "c001",
+      "price": 999.99,
+      "currency": "USD",
+      "display": "6.1 inch",
+      "processor": "Snapdragon 888",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4500 mAh",
+      "camera": "12MP",
+      "os": "Android 11",
+      "release_date": "2021-08-11",
+      "ratings": 4.4,
+      "reviews": 600,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCoNQ8xVepjVvM7q7QGQEZejGn4uoMSeGvGw&s",
+      "image_front": "https://example.com/images/xperia5iii_front.jpg",
+      "image_back": "https://example.com/images/xperia5iii_back.jpg",
+      "description": "The Sony Xperia 5 III combines powerful performance with a compact design and exceptional camera capabilities."
+    },
+    {
+      "id": "p006",
+      "name": "Xiaomi Mi 11",
+      "brand_id": "b006",
+      "category_id": "c001",
+      "price": 749.99,
+      "currency": "USD",
+      "display": "6.81 inch",
+      "processor": "Snapdragon 888",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4600 mAh",
+      "camera": "108MP",
+      "os": "Android 11",
+      "release_date": "2021-01-01",
+      "ratings": 4.3,
+      "reviews": 650,
+      "image": "https://cdn.mobilecity.vn/mobilecity-vn/images/2021/07/w300/xiaomi-mi-11-trang-1.png.webp",
+      "image_front": "https://example.com/images/mi11_front.jpg",
+      "image_back": "https://example.com/images/mi11_back.jpg",
+      "description": "The Xiaomi Mi 11 offers top-tier performance and an impressive camera setup at a competitive price."
+    },
+    {
+      "id": "p007",
+      "name": "Oppo Find X3 Pro",
+      "brand_id": "b007",
+      "category_id": "c001",
+      "price": 1099.99,
+      "currency": "USD",
+      "display": "6.7 inch",
+      "processor": "Snapdragon 888",
+      "ram": "12GB",
+      "storage": "256GB",
+      "battery": "4500 mAh",
+      "camera": "50MP",
+      "os": "Android 11",
+      "release_date": "2021-03-11",
+      "ratings": 4.6,
+      "reviews": 400,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/232190/oppo-find-x3-pro-black-001-1-600x600.jpg",
+      "image_front": "https://example.com/images/findx3pro_front.jpg",
+      "image_back": "https://example.com/images/findx3pro_back.jpg",
+      "description": "The Oppo Find X3 Pro delivers a stunning display and advanced camera technology."
+    },
+    {
+      "id": "p008",
+      "name": "Huawei P50 Pro",
+      "brand_id": "b008",
+      "category_id": "c001",
+      "price": 1199.99,
+      "currency": "USD",
+      "display": "6.6 inch",
+      "processor": "Kirin 9000",
+      "ram": "8GB",
+      "storage": "256GB",
+      "battery": "4360 mAh",
+      "camera": "50MP",
+      "os": "HarmonyOS 2.0",
+      "release_date": "2021-08-12",
+      "ratings": 4.5,
+      "reviews": 500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTDy-6Djj2yXs8j4gEMv-shdAoWcrc8Ats_Q&s",
+      "image_front": "https://example.com/images/p50pro_front.jpg",
+      "image_back": "https://example.com/images/p50pro_back.jpg",
+      "description": "The Huawei P50 Pro offers a premium experience with its exceptional camera and powerful performance."
+    },
+    {
+      "id": "p009",
+      "name": "Nokia 8.3 5G",
+      "brand_id": "b009",
+      "category_id": "c001",
+      "price": 699.99,
+      "currency": "USD",
+      "display": "6.81 inch",
+      "processor": "Snapdragon 765G",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "4500 mAh",
+      "camera": "64MP",
+      "os": "Android 10",
+      "release_date": "2020-09-22",
+      "ratings": 4.3,
+      "reviews": 300,
+      "image": "https://cdn2.cellphones.com.vn/x/media/catalog/product/n/o/nokia_8.3.jpg",
+      "image_front": "https://example.com/images/nokia83_front.jpg",
+      "image_back": "https://example.com/images/nokia83_back.jpg",
+      "description": "The Nokia 8.3 5G is a reliable smartphone with solid performance and 5G capabilities."
+    },
+    {
+      "id": "p010",
+      "name": "LG Velvet",
+      "brand_id": "b010",
+      "category_id": "c001",
+      "price": 599.99,
+      "currency": "USD",
+      "display": "6.8 inch",
+      "processor": "Snapdragon 765G",
+      "ram": "6GB",
+      "storage": "128GB",
+      "battery": "4300 mAh",
+      "camera": "48MP",
+      "os": "Android 10",
+      "release_date": "2020-05-15",
+      "ratings": 4.2,
+      "reviews": 350,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaIMTh0PiVuy8O1b7Nx4YimGpFQVwe2dZeg&s",
+      "image_front": "https://example.com/images/lgvelvet_front.jpg",
+      "image_back": "https://example.com/images/lgvelvet_back.jpg",
+      "description": "The LG Velvet combines a unique design with good performance and a capable camera."
+    }
+  ],
+  "brands": [
+    {
+      "id": "b001",
+      "name": "Apple",
+      "country": "USA",
+      "established": "1976-04-01",
+      "website": "https://www.apple.com",
+      "description": "Apple Inc. is an American multinational technology company specializing in consumer electronics, software, and online services."
+    },
+    {
+      "id": "b002",
+      "name": "Samsung",
+      "country": "South Korea",
+      "established": "1938-03-01",
+      "website": "https://www.samsung.com",
+      "description": "Samsung is a South Korean multinational conglomerate known for its electronics, including smartphones, televisions, and home appliances."
+    },
+    {
+      "id": "b003",
+      "name": "Google",
+      "country": "USA",
+      "established": "1998-09-04",
+      "website": "https://www.google.com",
+      "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products."
+    },
+    {
+      "id": "b004",
+      "name": "OnePlus",
+      "country": "China",
+      "established": "2013-12-16",
+      "website": "https://www.oneplus.com",
+      "description": "OnePlus is a Chinese smartphone manufacturer that offers high-performance smartphones at competitive prices."
+    },
+    {
+      "id": "b005",
+      "name": "Sony",
+      "country": "Japan",
+      "established": "1946-05-07",
+      "website": "https://www.sony.com",
+      "description": "Sony Corporation is a Japanese multinational conglomerate corporation known for its electronics products."
+    },
+    {
+      "id": "b006",
+      "name": "Xiaomi",
+      "country": "China",
+      "established": "2010-04-06",
+      "website": "https://www.mi.com",
+      "description": "Xiaomi Corporation is a Chinese electronics company that manufactures smartphones, mobile apps, laptops, and related consumer electronics."
+    },
+    {
+      "id": "b007",
+      "name": "Oppo",
+      "country": "China",
+      "established": "2004-10-10",
+      "website": "https://www.oppo.com",
+      "description": "Oppo is a Chinese consumer electronics and mobile communications company known for its smartphones and other electronic devices."
+    },
+    {
+      "id": "b008",
+      "name": "Huawei",
+      "country": "China",
+      "established": "1987-09-15",
+      "website": "https://www.huawei.com",
+      "description": "Huawei Technologies Co., Ltd. is a Chinese multinational technology corporation known for designing, developing, and selling telecommunications equipment and consumer electronics."
+    },
+    {
+      "id": "b009",
+      "name": "Nokia",
+      "country": "Finland",
+      "established": "1865-05-12",
+      "website": "https://www.nokia.com",
+      "description": "Nokia Corporation is a Finnish multinational telecommunications, information technology, and consumer electronics company."
+    },
+    {
+      "id": "b010",
+      "name": "LG",
+      "country": "South Korea",
+      "established": "1958-10-01",
+      "website": "https://www.lg.com",
+      "description": "LG Corporation is a South Korean multinational conglomerate known for its electronics, chemicals, and telecommunications products."
+    }
+  ],
+  "categories": [
+    {
+      "id": "c001",
+      "name": "Smartphone",
+      "description": "A category of mobile phones with advanced features and computing capability."
+    },
+    {
+      "id": "c002",
+      "name": "Tablet",
+      "description": "A mobile device with a larger screen, typically used for media consumption, web browsing, and productivity tasks."
+    },
+    {
+      "id": "c003",
+      "name": "Laptop",
+      "description": "A portable personal computer with a clamshell form factor, suitable for mobile use."
+    },
+    {
+      "id": "c004",
+      "name": "Smartwatch",
+      "description": "A wearable computing device that closely resembles a wristwatch or other time-keeping device."
+    },
+    {
+      "id": "c005",
+      "name": "Headphone",
+      "description": "A pair of small loudspeaker drivers worn on or around the head over a user's ears."
+    },
+    {
+      "id": "c006",
+      "name": "Camera",
+      "description": "An optical instrument used to capture and record images and videos."
+    },
+    {
+      "id": "c007",
+      "name": "Television",
+      "description": "A device that combines a tuner, display, and speakers for the purpose of viewing television broadcasts."
+    },
+    {
+      "id": "c008",
+      "name": "Speaker",
+      "description": "An audio device used to output sound to an audience."
+    },
+    {
+      "id": "c009",
+      "name": "Gaming Console",
+      "description": "A specialized computer system designed for interactive video gameplay and display."
+    },
+    {
+      "id": "c010",
+      "name": "Router",
+      "description": "A networking device that forwards data packets between computer networks."
+    }
+  ],
+  "customers": [
+    {
+      "id": "c001",
+      "name": "Nguyen Van A",
+      "email": "nguyenvana@example.com",
+      "phone": "+84901234567",
+      "address": "123 Le Loi, Quan 1, Ho Chi Minh City",
+      "registration_date": "2022-01-15",
+      "username": "nguyenvana",
+      "password": "nguyenvana@123"
+    },
+    {
+      "id": "c002",
+      "name": "Tran Thi B",
+      "email": "tranthib@example.com",
+      "phone": "+84987654321",
+      "address": "456 Tran Hung Dao, Quan 5, Ho Chi Minh City",
+      "registration_date": "2021-11-30",
+      "username": "tranthib",
+      "password": "tranthib@456"
+    },
+    {
+      "id": "c003",
+      "name": "Le Van C",
+      "email": "levanc@example.com",
+      "phone": "+84911223344",
+      "address": "789 Ly Thuong Kiet, Quan Tan Binh, Ho Chi Minh City",
+      "registration_date": "2022-03-01",
+      "username": "levanc",
+      "password": "levanc@789"
+    },
+    {
+      "id": "c004",
+      "name": "Pham Thi D",
+      "email": "phamthid@example.com",
+      "phone": "+84922334455",
+      "address": "101 Hai Ba Trung, Quan 3, Ho Chi Minh City",
+      "registration_date": "2022-02-20",
+      "username": "phamthid",
+      "password": "phamthid@101"
+    },
+    {
+      "id": "c005",
+      "name": "Hoang Van E",
+      "email": "hoangvane@example.com",
+      "phone": "+84933445566",
+      "address": "202 Nguyen Dinh Chieu, Quan 3, Ho Chi Minh City",
+      "registration_date": "2021-12-15",
+      "username": "hoangvane",
+      "password": "hoangvane@202"
+    },
+    {
+      "id": "c006",
+      "name": "Vu Thi F",
+      "email": "vuthif@example.com",
+      "phone": "+84944556677",
+      "address": "304 Pham Ngu Lao, Quan 1, Ho Chi Minh City",
+      "registration_date": "2021-10-10",
+      "username": "vuthif",
+      "password": "vuthif@303"
+    },
+    {
+      "id": "c007",
+      "name": "Dang Van G",
+      "email": "dangvang@example.com",
+      "phone": "+84955667799",
+      "address": "403 Bui Vien, Quan 1, Ho Chi Minh City",
+      "registration_date": "2022-05-05",
+      "username": "dangvang",
+      "password": "123456"
+    },
+    {
+      "id": "c008",
+      "name": "Ngo Thi H",
+      "email": "ngothih@example.com",
+      "phone": "0977652003",
+      "address": "505 Nguyen Trai, Quan 5, Ho Chi Minh City",
+      "registration_date": "2022-04-20",
+      "username": "ngothih",
+      "password": "ngothih@505"
+    },
+    {
+      "id": "c009",
+      "name": "Le Van I",
+      "email": "levani@example.com",
+      "phone": "+84977889900",
+      "address": "606 Tran Phu, Quan 5, Ho Chi Minh City",
+      "registration_date": "2022-03-15",
+      "username": "levani",
+      "password": "levani@606"
+    },
+    {
+      "id": "c010",
+      "name": "Nguyen Thi K",
+      "email": "nguyenthik@example.com",
+      "phone": "+84988990012",
+      "address": "707 Le Thanh Ton, Quan 1, Ho Chi Minh City",
+      "registration_date": "2022-02-01",
+      "username": "nguyenthik",
+      "password": "nguyenthik@707"
+    },
+    {
+      "id": "5af4",
+      "name": "Huyen",
+      "phone": "0123456789",
+      "address": "Ha Tinh",
+      "registration_date": 1720446218634,
+      "username": "huyen123",
+      "password": "123456",
+      "email": "huyen123@gmail.com"
+    },
+    {
+      "id": "cdc2",
+      "name": "Cao Hai",
+      "phone": "0977652003",
+      "address": "FPT University",
+      "registration_date": 1720683909890,
+      "username": "hai",
+      "password": "123456",
+      "email": "haicthe17312@fpt.edu.vn"
+    },
+    {
+      "id": "f59a",
+      "name": "hamy",
+      "phone": "0977652003",
+      "address": "Trung Quoc",
+      "registration_date": 1720914853553,
+      "username": "hamy",
+      "password": "123456"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o001",
+      "customer_id": "c001",
+      "order_date": "2022-02-20",
+      "status": "Delivered",
+      "product_id": "p001",
+      "quantity": 1,
+      "total_price": 999.99,
+      "currency": "USD",
+      "shipping_address": "123 Le Loi, Quan 1, Ho Chi Minh City",
+      "billing_address": "123 Le Loi, Quan 1, Ho Chi Minh City"
+    },
+    {
+      "id": "o002",
+      "customer_id": "c002",
+      "order_date": "2022-03-15",
+      "status": "Shipped",
+      "product_id": "p002",
+      "quantity": 1,
+      "total_price": 799.99,
+      "currency": "USD",
+      "shipping_address": "456 Tran Hung Dao, Quan 5, Ho Chi Minh City",
+      "billing_address": "456 Tran Hung Dao, Quan 5, Ho Chi Minh City"
+    },
+    {
+      "id": "o003",
+      "customer_id": "c003",
+      "order_date": "2022-04-10",
+      "status": "Processing",
+      "product_id": "p003",
+      "quantity": 1,
+      "total_price": 699.99,
+      "currency": "USD",
+      "shipping_address": "789 Ly Thuong Kiet, Quan Tan Binh, Ho Chi Minh City",
+      "billing_address": "789 Ly Thuong Kiet, Quan Tan Binh, Ho Chi Minh City"
+    },
+    {
+      "id": "o004",
+      "customer_id": "c004",
+      "order_date": "2022-05-05",
+      "status": "Delivered",
+      "product_id": "p004",
+      "quantity": 1,
+      "total_price": 729.99,
+      "currency": "USD",
+      "shipping_address": "101 Hai Ba Trung, Quan 3, Ho Chi Minh City",
+      "billing_address": "101 Hai Ba Trung, Quan 3, Ho Chi Minh City"
+    },
+    {
+      "id": "o005",
+      "customer_id": "c005",
+      "order_date": "2022-06-01",
+      "status": "Cancelled",
+      "product_id": "p005",
+      "quantity": 1,
+      "total_price": 999.99,
+      "currency": "USD",
+      "shipping_address": "202 Nguyen Dinh Chieu, Quan 3, Ho Chi Minh City",
+      "billing_address": "202 Nguyen Dinh Chieu, Quan 3, Ho Chi Minh City"
+    },
+    {
+      "id": "o006",
+      "customer_id": "c006",
+      "order_date": "2022-06-15",
+      "status": "Processing",
+      "product_id": "p006",
+      "quantity": 1,
+      "total_price": 749.99,
+      "currency": "USD",
+      "shipping_address": "303 Pham Ngu Lao, Quan 1, Ho Chi Minh City",
+      "billing_address": "303 Pham Ngu Lao, Quan 1, Ho Chi Minh City"
+    },
+    {
+      "id": "o007",
+      "customer_id": "c007",
+      "order_date": "2022-07-01",
+      "status": "Delivered",
+      "product_id": "p007",
+      "quantity": 1,
+      "total_price": 1099.99,
+      "currency": "USD",
+      "shipping_address": "404 Bui Vien, Quan 1, Ho Chi Minh City",
+      "billing_address": "404 Bui Vien, Quan 1, Ho Chi Minh City"
+    },
+    {
+      "id": "o008",
+      "customer_id": "c008",
+      "order_date": "2022-07-15",
+      "status": "Shipped",
+      "product_id": "p008",
+      "quantity": 1,
+      "total_price": 1199.99,
+      "currency": "USD",
+      "shipping_address": "505 Nguyen Trai, Quan 5, Ho Chi Minh City",
+      "billing_address": "505 Nguyen Trai, Quan 5, Ho Chi Minh City"
+    },
+    {
+      "id": "o009",
+      "customer_id": "c009",
+      "order_date": "2022-08-01",
+      "status": "Processing",
+      "product_id": "p009",
+      "quantity": 1,
+      "total_price": 699.99,
+      "currency": "USD",
+      "shipping_address": "606 Tran Phu, Quan 5, Ho Chi Minh City",
+      "billing_address": "606 Tran Phu, Quan 5, Ho Chi Minh City"
+    },
+    {
+      "id": "o010",
+      "customer_id": "c010",
+      "order_date": "2022-08-15",
+      "status": "Delivered",
+      "product_id": "p010",
+      "quantity": 1,
+      "total_price": 599.99,
+      "currency": "USD",
+      "shipping_address": "707 Le Thanh Ton, Quan 1, Ho Chi Minh City",
+      "billing_address": "707 Le Thanh Ton, Quan 1, Ho Chi Minh City"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r001",
+      "product_id": "p001",
+      "customer_id": "c001",
+      "rating": 5,
+      "comment": "Excellent phone with great performance!",
+      "review_date": "2022-02-25"
+    },
+    {
+      "id": "r002",
+      "product_id": "p002",
+      "customer_id": "c002",
+      "rating": 4,
+      "comment": "Good value for money, but the battery life could be better.",
+      "review_date": "2022-03-20"
+    },
+    {
+      "id": "r003",
+      "product_id": "p003",
+      "customer_id": "c003",
+      "rating": 4.5,
+      "comment": "Amazing camera quality and smooth performance.",
+      "review_date": "2022-04-15"
+    },
+    {
+      "id": "r004",
+      "product_id": "p004",
+      "customer_id": "c004",
+      "rating": 4,
+      "comment": "Great phone, but a bit pricey.",
+      "review_date": "2022-05-10"
+    },
+    {
+      "id": "r005",
+      "product_id": "p005",
+      "customer_id": "c005",
+      "rating": 3.5,
+      "comment": "Good phone, but the camera could be better.",
+      "review_date": "2022-06-05"
+    },
+    {
+      "id": "r006",
+      "product_id": "p006",
+      "customer_id": "c006",
+      "rating": 4.5,
+      "comment": "Excellent display and performance.",
+      "review_date": "2022-06-20"
+    },
+    {
+      "id": "r007",
+      "product_id": "p007",
+      "customer_id": "c007",
+      "rating": 4.8,
+      "comment": "Fantastic phone with top-notch features.",
+      "review_date": "2022-07-05"
+    },
+    {
+      "id": "r008",
+      "product_id": "p008",
+      "customer_id": "c008",
+      "rating": 4.7,
+      "comment": "Great overall performance, but expensive.",
+      "review_date": "2022-07-20"
+    },
+    {
+      "id": "r009",
+      "product_id": "p009",
+      "customer_id": "c009",
+      "rating": 4.3,
+      "comment": "Solid performance and good value.",
+      "review_date": "2022-08-05"
+    },
+    {
+      "id": "r010",
+      "product_id": "p010",
+      "customer_id": "c010",
+      "rating": 4,
+      "comment": "Nice phone, but the design could be improved.",
+      "review_date": "2022-08-20"
+    }
+  ]
+}
